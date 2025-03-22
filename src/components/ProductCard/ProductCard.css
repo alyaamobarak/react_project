@@ -1,0 +1,48 @@
+/* .btnView{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+  margin-top: 0;
+  background-color: white;
+}
+.btnView:hover{
+  color: blue;
+  border: 1px solid blue;
+}
+.ppar{
+  font-size: 1rem;
+  color:blue;
+} */
+
+
+.takeph{
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  margin-top: 6px;
+}
+
+.takeph .card-title{
+  font-size: 13px;
+  color: #222;
+  margin-top: 10px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: normal;
+  width: 100%;
+}
+
+.takeph .ppar{
+  color: #e32b2b;
+  /* color: #000; */
+  font-size: 12px;
+  font-family: "AdihausDIN", sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-top: 5px;
+  letter-spacing: -.5;
+}

@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding-top: 60px;
+}
+.active {
+  text-decoration: underline !important;
+  color: blue !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  padding-right: 17.5px;
+  padding-left: 17.5px;
+  margin-right: auto;
+  margin-left: auto;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  box-shadow: 1px 1px 15px #666;
+  z-index: 9999;
+  transition: all 200ms ease-in-out 0s;
+}
+
+.logo img {
+  height: 35px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.nav-links li a  {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  font-family: "AdihausDIN", sans-serif;
+  cursor: pointer;
+  letter-spacing: 1.8px;
+}
+
+.nav-links .sport,
+.nav-links .lifestyle {
+  font-weight: 300;
+}
+
+.nav-links .sale {
+  color: #e82c2c;
+}
+
+.sericon {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ebedee;
+  overflow: hidden;
+  width: 193px;
+  background-color: #ebedee;
+}
+
+.search-container:hover {
+  border: 1px solid #333;
+}
+
+.search-input {
+  border: none;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 13px;
+  width: 150px;
+  background-color: #ebedee;
+}
+
+.search-icon {
+  background: none;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-wrapper {
+  cursor: pointer;
+}
+
+.icon-badge {
+  position: relative;
+  cursor: pointer;
+}
+
+.badge {
+  background-color: #0071ae;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  position: absolute;
+  top: -8px;
+  right: -13px;
+}
+
+
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+  }
+
+  .search-input {
+      width: 100px;
+  }
+
+  .search-container.show-on-small {
+      display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-container {
+      display: none;
+  }
+
+  .search-container.show-on-small {
+      display: flex;
+  }
+
+  .icons {
+      gap: 10px;
+  }
+
+  .logo img {
+      height: 30px;
+  }
+}

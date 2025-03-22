@@ -1,0 +1,99 @@
+.formhook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 15px auto;
+    background: #fff;
+  }
+  
+  .input-group {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .formhook input,
+  .formhook select,
+  .formhook textarea {
+    width: 100%;
+    padding: 12px 45px 12px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #d8a89e;
+    font-size: 18px;
+  }
+  
+  .icontext {
+    position: absolute;
+    left: 15px;
+    top: 22%;
+    transform: translateY(-50%);
+    color: #d8a89e;
+    font-size: 18px;
+  }
+  
+  .formhook textarea {
+    resize: none;
+    height: 120px;
+  }
+  
+  .formhook button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d8a89e;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .formhook button:hover {
+    background-color: #c19389;
+  }
+  .eromess{
+  
+    margin-top:-5px;
+  }
+  
+  .panertext{
+    background-color: #d8a89e;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tticon{
+    margin-left: 190px;
+    font-size: 20px;
+  }
+  
+  .divLarge{
+    background-color: #edefec;
+  }
+
+  /* body{
+    background-color: #2596be;
+  } */
