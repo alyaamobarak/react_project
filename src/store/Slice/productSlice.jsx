@@ -2,12 +2,12 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 
 export const fetchDataThunk = createAsyncThunk('products/fetchData', async () => {
-      const res = await fetch("http://localhost:3000/products");
-      const data = await res.json();
-      console.log("in fetchData", data);
-      return data; 
-    }
-  );  
+    const res = await fetch("https://react-project222.netlify.app/products.json");
+    const data = await res.json();
+    console.log("in fetchData", data);
+    return data;
+}
+);
 
 const productsSlice = createSlice(
     {
