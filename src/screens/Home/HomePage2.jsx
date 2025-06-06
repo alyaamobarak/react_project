@@ -10,7 +10,7 @@ const HomePage2 = () => {
 
   const getData = async () => {
     try {
-      const response = await fetch("https://react-project222.netlify.app/Adidis");
+      const response = await fetch("http://localhost:3000/Adidis2");
       const data = await response.json();
       setProducts(data);
     } catch (error) {

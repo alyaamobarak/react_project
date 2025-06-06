@@ -5,44 +5,25 @@ import './About.css';
 const About = () => {
   return (
     <div className="about-page">
+      {/* Hero Section */}
       <div className="about-hero">
         <Container>
-          <div className="hero-content">
-            <h1>About the adidas Group</h1>
-            <p className="hero-subtitle">We are a global leader in sport and lifestyle</p>
-          </div>
+          <h1>About Us</h1>
+          <p className="hero-subtitle">We are a global leader in sport and lifestyle</p>
         </Container>
       </div>
 
-      <section className="mission-section">
-        <Container>
-          <Row>
-            <Col md={12}>
-              <div className="mission-content">
-                <h2>Our Mission</h2>
-                <p>To be the best sports company in the world, creating the new, bringing the latest styles and innovations to our consumers.</p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
+      {/* Vision Section */}
       <section className="vision-section">
         <Container>
           <Row>
             <Col md={6}>
-              <div className="vision-content">
-                <h2>Our Vision</h2>
-                <p>To be the global leader in the sporting goods industry with brands built on a passion for sports and a sporting lifestyle.</p>
-              </div>
+              <h2>Our Vision</h2>
+              <p>To be the best sports company in the world, creating the new, bringing the latest styles and innovations to our consumers.</p>
             </Col>
             <Col md={6}>
               <div className="vision-image">
-                <img
-                  src='https://res.cloudinary.com/confirmed-web/image/upload/c_lfill,w_1440/v1705910723/adidas-group/images/purpose_en_zs9gg0.jpg'
-                  alt="Adidas Vision"
-                  className="img-fluid"
-                />
+                {/* Add your image here */}
               </div>
             </Col>
           </Row>
@@ -111,4 +92,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About; 

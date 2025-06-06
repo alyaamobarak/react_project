@@ -5,19 +5,24 @@ import "./Home.css";
 const HomePage = () => {
   const [products, setProducts] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
 
   const slidesToShow = 4;
   const totalSlides = Math.ceil(products.length / slidesToShow);
 
   const getData = async () => {
     try {
-      const response = await fetch("https://react-project222.netlify.app/Adidis");
+      setIsLoading(true);
+      const response = await fetch("http://localhost:3000/Adidis");
       const data = await response.json();
       setProducts(data);
     } catch (error) {
       console.error("Error fetching Adidas data:", error);
+    } finally {
+      setIsLoading(false);
     }
   };
+
   useEffect(() => {
     getData();
   }, []);
@@ -37,6 +42,13 @@ const HomePage = () => {
   const goToSlide = (index) => {
     setCurrentIndex(index);
   };
+
+  // Calculate the visible products for the current slide
+  const visibleProducts = products.slice(
+    currentIndex * slidesToShow,
+    Math.min((currentIndex + 1) * slidesToShow, products.length)
+  );
+
   return (
     <div className="adidas-slider">
       <h2 className="section-title"> SALE</h2>
@@ -49,22 +61,20 @@ const HomePage = () => {
         )}
 
         <div className="slides-container">
-          {products
-            .slice(currentIndex * slidesToShow, currentIndex * slidesToShow + slidesToShow)
-            .map((product) => (
-              <div key={product.id} className="slide ">
-                <img className="!important" src={product.image} alt={product.name} />
-                <span className="discount-badge">{product.discount}</span>
-                <div className="product-info">
-                  <h3>{product.name}</h3>
-                  <div className="tpricedl">
-                    <p className="price">{product.price}</p>
-                    <p className="old-price">{product.oldPrice}</p>
-                  </div>
-                  <p className="categorytype">{product.category}</p>
+          {visibleProducts.map((product) => (
+            <div key={product.id} className="slide">
+              <img className="!important" src={product.image} alt={product.name} />
+              <span className="discount-badge">{product.discount}</span>
+              <div className="product-info">
+                <h3>{product.name}</h3>
+                <div className="tpricedl">
+                  <p className="price">{product.price}</p>
+                  <p className="old-price">{product.oldPrice}</p>
                 </div>
+                <p className="categorytype">{product.category}</p>
               </div>
-            ))}
+            </div>
+          ))}
         </div>
 
         {currentIndex < totalSlides - 1 && (

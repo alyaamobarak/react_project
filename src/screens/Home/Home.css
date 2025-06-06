@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url('../../../public/emc-ramadangeneric-revised-d.png') no-repeat center center/cover;
+  background: url('https://www.adidas.com.eg/dw/image/v2/BFNL_PRD/on/demandware.static/-/Library-Sites-AdidasSharedLibrary/default/dw47ee2a92/MENA_Local_Activations/MENA-APR-MAY-JUNE/em-eg-lightblaze-hp-mh-d.png') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -10,9 +10,22 @@
   padding: 2%;
   box-sizing: border-box;
 }
-
-.promo-text {
+.prom-section{
+   position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('https://www.adidas.com.eg/dw/image/v2/BFNL_PRD/on/demandware.static/-/Library-Sites-AdidasSharedLibrary/default/dw5e459f25/MENA_Local_Activations/MENA-APR-MAY-JUNE/em-maeg-adicolor-hp-mh-d.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  padding: 2%;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+.prom-text {
   max-width: 600px;
+  margin-top: 300px;
 }
 
 .Ramadan{
@@ -174,6 +187,7 @@ p {
 .right-arrow {
   right: 0;
 }
+
 .slides-container {
   display: flex;
   overflow: hidden;
@@ -186,9 +200,11 @@ p {
   position: relative;
   overflow: hidden;
 }
-.tpricedl{
+
+.tpricedl {
   display: flex;
 }
+
 .slide img {
   width: 100%;
   background-color: #ebedee;
@@ -205,11 +221,13 @@ p {
   letter-spacing: 0.5px;
   padding: 2px 2px 2px 2px;
 }
+
 .product-info {
   padding-left: 10px;
   margin-bottom: 20px;
   padding-bottom: 0;
 }
+
 .product-info h3 {
   font-size: 12px;
   color: #222;
@@ -221,6 +239,7 @@ p {
   font-weight: normal;
   width: 100%;
 }
+
 .price {
   color: #e32b2b;
   font-size: 12px;
@@ -237,14 +256,15 @@ p {
   font-size: 12px;
   font-family: "AdihausDIN", sans-serif;
   margin-left: 10px;
-
 }
-.categorytype{
+
+.categorytype {
   color: #b3b3b3;
   font-weight: 700;
   font-size: 12px;
   font-family: "AdihausDIN", sans-serif;
 }
+
 .indicators {
   display: flex;
   justify-content: center;
@@ -267,21 +287,22 @@ p {
   background-color: #000 !important;
   transform: translateY(-4px);
 }
+
 @media (max-width: 1024px) {
   .slide {
     min-width: 45%;
   }
 }
+
 @media (max-width: 600px) {
   .slide {
     min-width: 90%;
   }
+  
   .arrow {
     font-size: 1.5rem;
   }
 }
-
-
 
 /* panner */
 .membership-banner {
@@ -346,3 +367,4 @@ p {
   margin-right: 40px;
   color: #000;
 }
+

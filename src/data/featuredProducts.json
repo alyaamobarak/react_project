@@ -1,0 +1,92 @@
+{
+  "featuredProducts": [
+    {
+      "id": 1,
+      "name": "Adidas Forum Low",
+      "description": "Classic basketball style meets modern comfort",
+      "price": "$100",
+      "oldPrice": "$120",
+      "discount": "-17%",
+      "category": "Basketball",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c8c2c0c0c0c4c0c0c0c0c0c0c0c0c0/forum-low-shoes-FY7756_01_standard.jpg",
+      "showNow": "https://www.adidas.com/us/forum-low-shoes/FY7756.html"
+    },
+    {
+      "id": 2,
+      "name": "Adidas Samba Classic",
+      "description": "The iconic indoor soccer shoe",
+      "price": "$80",
+      "oldPrice": "$95",
+      "discount": "-16%",
+      "category": "Originals",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c8c2c0c0c0c4c0c0c0c0c0c0c0c0c0/samba-classic-shoes-771060_01_standard.jpg",
+      "showNow": "https://www.adidas.com/us/samba-classic-shoes/771060.html"
+    },
+    {
+      "id": 3,
+      "name": "Adidas Nizza",
+      "description": "Clean, classic canvas style",
+      "price": "$65",
+      "oldPrice": "$75",
+      "discount": "-13%",
+      "category": "Originals",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c8c2c0c0c0c4c0c0c0c0c0c0c0c0c0/nizza-shoes-EG4958_01_standard.jpg",
+      "showNow": "https://www.adidas.com/us/nizza-shoes/EG4958.html"
+    },
+    {
+      "id": 4,
+      "name": "Adidas Grand Court",
+      "description": "Tennis-inspired style for everyday wear",
+      "price": "$70",
+      "oldPrice": "$85",
+      "discount": "-18%",
+      "category": "Tennis",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c8c2c0c0c0c4c0c0c0c0c0c0c0c0c0/grand-court-shoes-FV1897_01_standard.jpg",
+      "showNow": "https://www.adidas.com/us/grand-court-shoes/FV1897.html"
+    },
+    {
+      "id": 5,
+      "name": "Adidas Rivalry Low",
+      "description": "Basketball heritage meets street style",
+      "price": "$90",
+      "oldPrice": "$110",
+      "discount": "-18%",
+      "category": "Basketball",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c8c2c0c0c0c4c0c0c0c0c0c0c0c0c0/rivalry-low-shoes-FY7756_01_standard.jpg",
+      "showNow": "https://www.adidas.com/us/rivalry-low-shoes/FY7756.html"
+    },
+    {
+      "id": 6,
+      "name": "Adidas Campus",
+      "description": "The classic skateboarding shoe",
+      "price": "$85",
+      "oldPrice": "$100",
+      "discount": "-15%",
+      "category": "Originals",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c8c2c0c0c0c4c0c0c0c0c0c0c0c0c0/campus-shoes-771060_01_standard.jpg",
+      "showNow": "https://www.adidas.com/us/campus-shoes/771060.html"
+    },
+    {
+      "id": 7,
+      "name": "Adidas Handball Spezial",
+      "description": "Indoor court heritage meets street style",
+      "price": "$95",
+      "oldPrice": "$115",
+      "discount": "-17%",
+      "category": "Originals",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c8c2c0c0c0c4c0c0c0c0c0c0c0c0c0/handball-spezial-shoes-BB5478_01_standard.jpg",
+      "showNow": "https://www.adidas.com/us/handball-spezial-shoes/BB5478.html"
+    },
+    {
+      "id": 8,
+      "name": "Adidas Supercourt",
+      "description": "Tennis-inspired style with modern comfort",
+      "price": "$75",
+      "oldPrice": "$90",
+      "discount": "-17%",
+      "category": "Tennis",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c8c2c0c0c0c4c0c0c0c0c0c0c0c0c0/supercourt-shoes-FV1897_01_standard.jpg",
+      "showNow": "https://www.adidas.com/us/supercourt-shoes/FV1897.html"
+    }
+  ]
+} 
